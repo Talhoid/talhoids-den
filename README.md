@@ -7,3 +7,5 @@ Run `npm install` and optionally run `npm install -g nodemon` if you want to use
 Then run `npm start` to start the server!
 
 And finally go to `localhost:3000` in your browser to view it.
+
+(this project is not complete yet!!!)

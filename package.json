@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tailwindcss -i ./src/css/index.css -o ./src/css/bundled.css --minify | nodemon index.js"
+    "start": "npx tailwindcss -i ./src/css/index.css -o ./src/css/bundled.css -w -m | nodemon index.js -e js,json,html,css ./**/*.*"
   },
   "//": "you should use node instead of nodemon, i was using because i was debugging",
   "author": "Talhoid",

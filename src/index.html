@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full w-screen">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/bundled.css?u={>cache}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bundled.css?u={>cache}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="/css/fonts.css"
+      rel="stylesheet"
+    />
     <script src="/js/index.js?u={>cache}" defer async></script>
-</head>
-<body class="h-full w-full dark:bg-slate-900 font-mono overflow-hidden">
+  </head>
+  <body class="h-full w-full dark:bg-slate-900 font-mono overflow-hidden transition-colors duration-75">
     <div class="flex justify-center dark:content-start">
-        <pre id="code" class="text-7xl my-4 dark:text-white font-mono font-semibold"></pre>
-    </div> 
-    <div class="w-96 mx-auto">
-        <div class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 float-left translate-x-3/5w dark:translate-x-0 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)] transition-transform duration-500">
-            <span class="text-white font-bold text-xl">Lorem, ipsum.</span>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor quod, maxime adipisci harum doloribus culpa amet facilis assumenda, maiores ut eos delectus dolorem tenetur!</p>
-        </div>
-        <div class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 float-right -translate-x-3/5w dark:translate-x-0 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)] transition-transform duration-500 delay-75">
-            <span class="text-white font-bold text-xl">Lorem, ipsum.</span>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor quod, maxime adipisci harum doloribus culpa amet facilis assumenda, maiores ut eos delectus dolorem tenetur!</p>
-        </div>
-        <div class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 float-left translate-x-3/5w dark:translate-x-0 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)] transition-transform duration-500 delay-150">
-            <span class="text-white font-bold text-xl">Lorem, ipsum.</span>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor quod, maxime adipisci harum doloribus culpa amet facilis assumenda, maiores ut eos delectus dolorem tenetur!</p>
-        </div>
+      <pre
+        id="code"
+        class="text-7xl my-4 dark:text-white font-mono font-semibold transition-colors duration-75"
+      ></pre>
     </div>
-</body>
+    <div class="w-96 mx-auto">
+      <div
+        class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 translate-x-3/5w float-left dark:translate-x-0 transition-transform duration-300 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)]"
+      >
+        <span class="text-sky-400 font-bold text-xl text-shadow-sky-400">Lorem, ipsum.</span>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor
+          quod, maxime adipisci harum doloribus culpa amet facilis assumenda,
+          maiores ut eos delectus dolorem tenetur!
+        </p>
+      </div>
+      <div
+        class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 -translate-x-3/5w float-right dark:translate-x-0 transition-transform duration-300 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)]"
+      >
+        <span class="text-sky-400 font-bold text-xl text-shadow-sky-400">Lorem, ipsum.</span>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor
+          quod, maxime adipisci harum doloribus culpa amet facilis assumenda,
+          maiores ut eos delectus dolorem tenetur!
+        </p>
+      </div>
+      <div
+        class="w-72 dark:border border-sky-700 rounded container px-3 pt-2 pb-4 mx-auto mb-2 hover:-translate-y-2 translate-x-3/5w float-left dark:translate-x-0 transition-transform duration-300 dark:shadow-[0px_0px_12px_0px_rgba(3,106,161,0.9)]"
+      >
+        <span class="text-sky-400 font-bold text-xl text-shadow-sky-400">Lorem, ipsum.</span>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor
+          quod, maxime adipisci harum doloribus culpa amet facilis assumenda,
+          maiores ut eos delectus dolorem tenetur!
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

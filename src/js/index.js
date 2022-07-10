@@ -1,4 +1,3 @@
-document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + 'px');
 let code = document.getElementById("code");
 let string = "Talhoid";
 let timeSpan = 3000;

@@ -9,6 +9,7 @@ const port = 3000;
 
 app.use("/css", express.static('./src/css'));
 app.use("/js", express.static('./src/js'));
+app.use("/assets", express.static('./src/assets'));
 app.engine('.html', whiskers.__express);
 
 

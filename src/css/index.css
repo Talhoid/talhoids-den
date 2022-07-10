@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .transition-slide {
+        transition: transform cubic-bezier(0.4, 0, 0.2, 1) 500ms;
+    }
+
+    .text-shadow-sky-400 {
+        text-shadow: 0px 0px 2px rgb(56 189 248 / .4);
+    }
+}
